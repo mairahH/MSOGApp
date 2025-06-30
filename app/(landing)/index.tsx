@@ -43,7 +43,7 @@ export default function LandingScreen() {
     );
 
     setTimeout(() => {
-      router.replace('/(tabs)');
+      router.replace('/login');
     }, 2800);
   }, []);
 
@@ -79,7 +79,7 @@ export default function LandingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f9f9fb',
+    backgroundColor: 'F3F2F7',
   },
   icon: {
     width: 120,
